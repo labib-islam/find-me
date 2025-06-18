@@ -1,5 +1,4 @@
 import React from "react";
-import { Icon } from "@iconify/react";
 import Card from "./Card";
 import { CardInfo } from "../types/types";
 

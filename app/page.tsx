@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Phone from "./components/Phone";
 import Header from "./components/Header";
 import Email from "./components/Email";
