@@ -1,7 +1,7 @@
-import Phone from "./components/Phone";
+// import Phone from "./components/Phone";
 import Header from "./components/Header";
-import Email from "./components/Email";
-import Location from "./components/Location";
+// import Email from "./components/Email";
+// import Location from "./components/Location";
 
 export default function Home() {
   return (
