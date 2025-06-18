@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <section className="w-screen flex flex-col gap-4 items-center p-5">
+      <section className="w-screen flex flex-col gap-4 items-center px-5 py-10">
         <Phone />
         <Email />
         <Location />
