@@ -27,7 +27,7 @@ const Card = ({ type, icon, data }: CardProps) => {
         {data.map((item) => (
           <div key={item.id}>
             {item.id !== "1" && (
-              <hr className="mx-5 my-1 w-10 border-gray-400" />
+              <hr className="mx-5 my-2 w-10 border-gray-400" />
             )}
             <Link
               href={
@@ -46,7 +46,7 @@ const Card = ({ type, icon, data }: CardProps) => {
               <p className="text-[0.9rem] font-[400] text-gray-500 flex items-center">
                 {item.header}
                 {item.tag && (
-                  <span className="italic ml-1 py-[1px] px-[5px] rounded-[3px]  bg-cyan-800 text-gray-200 text-[0.8rem] ">
+                  <span className="flex items-center italic ml-1 h-5 px-[5px] rounded-[3px] bg-gray-300  text-cyan-800 text-[0.8rem] ">
                     #{item.tag}
                   </span>
                 )}
