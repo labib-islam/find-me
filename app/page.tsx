@@ -8,9 +8,9 @@ export default function Home() {
     <main>
       <Header />
       <section className="w-screen flex flex-col gap-4 items-center p-5">
-        <Phone />
+        {/* <Phone />
         <Email />
-        <Location />
+        <Location /> */}
       </section>
     </main>
   );
