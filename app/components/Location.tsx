@@ -3,7 +3,7 @@ import Card from "./Card";
 import { CardInfo } from "../types/types";
 
 const Location = async () => {
-  const res = await fetch(`${process.env.DB_SHEET_LINK}/location`);
+  const res = await fetch(`${process.env.NEXT_PUBLIC_DB_SHEET_LINK}/location`);
   const locationDetails: CardInfo[] = await res.json();
 
   return (

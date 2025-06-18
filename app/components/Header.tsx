@@ -9,7 +9,7 @@ interface User {
 }
 
 const Header = async () => {
-  const res = await fetch(`${process.env.DB_SHEET_LINK}/home`);
+  const res = await fetch(`${process.env.NEXT_PUBLIC_DB_SHEET_LINK}/home`);
   const userInfo = await res.json();
   const user: User = userInfo[0];
 
