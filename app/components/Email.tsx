@@ -3,7 +3,7 @@ import Card from "./Card";
 import { CardInfo } from "../types/types";
 
 const Email = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_DB_SHEET_LINK}/email`);
+  const res = await fetch(`${process.env.DB_SHEET_LINK}/email`);
   const emailDetails: CardInfo[] = await res.json();
 
   return <Card type="email" icon="mingcute:mail-fill" data={emailDetails} />;
