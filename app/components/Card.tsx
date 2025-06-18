@@ -23,7 +23,7 @@ const Card = ({ type, icon, data }: CardProps) => {
         <Icon icon={icon} width="23" height="23" className="text-gray-600" />
       </i>
 
-      <article className=" my-3 border-l-2 border-gray-300 gap-2">
+      <article className=" my-4 border-l-2 border-gray-300 gap-2">
         {data.map((item) => (
           <div key={item.id}>
             {item.id !== "1" && (
